@@ -28,6 +28,7 @@ body {
   }
 
 }
+
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -54,7 +55,8 @@ h3 {
   list-style: none;
 }
 
-input,button{
+input, 
+button {
   outline: none;
 }
 
