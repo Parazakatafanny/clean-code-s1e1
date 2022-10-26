@@ -17,7 +17,7 @@ body {
   width: 100%;
 }
 
-.eisenhower-matrix .more_inf {
+.eisenhower-matrix .more_info {
   font-family: fantasy, cursive;
 }
 
@@ -29,7 +29,7 @@ body {
 
 }
 
-.centered-main-page-element {
+.todo__inner {
   display: block;
   width: 500px;
   margin: 0 auto 0;
