@@ -7,14 +7,14 @@
 </head>
 
 <body class="app">
-  <aside class="eisenhower-matrix">
+  <header class="eisenhower-matrix">
     <img class="eisenhower-matrix__img" src="./eisenhower-matrix.jpg" alt="the eisenhower matrix">
     <a class="eisenhower-matrix__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </aside>
+  </header>
 
-  <div class="to-do">
+  <main class="to-do">
     <section class="to-do__add-item">
-      <label class="to-do__title">Add Item</label>
+      <h3 class="to-do__title">Add Item</h3>
       <div class="to-do__task-row-wrapper">
         <input class="new-task" type="text">
         <button class="to-do__button">Add</button>
@@ -26,7 +26,7 @@
       <ul class="to-do__incomplete-tasks">
         <li class="to-do__item">
           <input class="input-checkbox" type="checkbox">
-          <label class="item-task">Pay Bills</label>
+          <span class="item-task">Pay Bills</span>
           <input type="text" class="input-task">
           <button class="to-do__button button-edit">Edit</button>
           <button class="to-do__button button-delete">
@@ -35,7 +35,7 @@
         </li>
         <li class="to-do__item edit-mode">
           <input class="input-checkbox" type="checkbox">
-          <label class="item-task">Go Shopping</label>
+          <span class="item-task">Go Shopping</span>
           <input type="text" value="Go Shopping" class="input-task">
           <button class="to-do__button button-edit">Save</button>
           <button class="to-do__button button-delete">
@@ -50,7 +50,7 @@
       <ul class="to-do__completed-tasks">
         <li class="to-do__item">
           <input class="input-checkbox" type="checkbox" checked>
-          <label class="item-task">See the Doctor</label>
+          <span class="item-task">See the Doctor</span>
           <input type="text" class="input-task">
           <button class="to-do__button button-edit">Edit</button>
           <button class="to-do__button button-delete">
@@ -59,7 +59,7 @@
         </li>
       </ul>
     </section>
-  </div>
+  </main>
 
   <script src="app.js"></script>
 </body>
