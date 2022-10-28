@@ -33,13 +33,13 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     span.innerText=taskString;
-    span.className='item-task';
+    span.className='to-do__item-task';
 
     //Each elements, needs appending
     checkBox.type="checkbox";
-    checkBox.className="input-checkbox";
+    checkBox.className="to-do__input-checkbox";
     editInput.type="text";
-    editInput.className="input-task";
+    editInput.className="to-do__input-task";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="to-do__button button-edit";
