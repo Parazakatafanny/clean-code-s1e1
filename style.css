@@ -127,22 +127,22 @@ button {
   align-items: center;
 }
 
-.to-do__item > * {
+.to-do__item {
   vertical-align: middle;
 }
 
-.to-do__item > .to-do__input-checkbox {
+.to-do__item .to-do__input-checkbox {
   margin: 0 10px;
 }
 
-.to-do__item > .to-do__item-task {
+.to-do__item .to-do__item-task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.to-do__item > .to-do__input-task {
+.to-do__item .to-do__input-task {
   width: 226px;
 }
 
